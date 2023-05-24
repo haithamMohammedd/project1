@@ -8,4 +8,7 @@ Route::get('/',function(){
 Route::get('/about',function(){
     return'About page';
 });
+Route::get('/User',function(){
+    return'User page';
+});
 
